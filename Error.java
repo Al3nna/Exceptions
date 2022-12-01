@@ -1,3 +1,5 @@
+//Alenna - alenna.castaneda@oneidaihla.org
+//practicing basic exception example
 class Error {
     public static void main(String[] args) {
         try {

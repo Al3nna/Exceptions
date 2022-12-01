@@ -1,3 +1,7 @@
+//Alenna - alenna.castaneda@oneidaihla.org
+//for CTE software development 1
+//instructor Mr Gross
+
 public class Employee implements Comparable<Employee>{
     //creating attributes
     private String fname;
