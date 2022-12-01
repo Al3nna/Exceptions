@@ -2,7 +2,7 @@
 //for CTE software development 1
 //instructor Mr Gross
 
-public class Employee implements Comparable<Employee>{
+public class Employee {
     //creating attributes
     private String fname;
     private String lname;
@@ -16,18 +16,6 @@ public class Employee implements Comparable<Employee>{
     //putting attributes into a string
     public String toString() {
         return (fname+", "+lname);
-    }
-
-    @Override
-    //comparing employees
-    public int compareTo(Employee y) {
-            //comparing fnames if jobs are equal
-            if (this.fname.compareTo(y.fname) != 0) {
-            return this.fname.compareTo(y.fname);
-        } else {
-            //comparying lname if fnames are equal
-            return this.lname.compareTo(y.lname);
-        }
     }
 
     //dividing two integars
@@ -59,6 +47,7 @@ public class Employee implements Comparable<Employee>{
         
         //trying to add all employees to array
         try {
+            //adding employees to array
             allEmployees[0] = p1;
             allEmployees[1] = p2;
             allEmployees[2] = p3;
